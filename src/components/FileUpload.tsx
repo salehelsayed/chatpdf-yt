@@ -38,7 +38,7 @@ const FileUpload = () => {
 
 
             
-            if (file.size > 2 * 1024 * 1024){
+            if (file.size > 10 * 1024 * 1024){
                 //bigger than 10mb!
                 toast.error("File too large!");
                 return;
